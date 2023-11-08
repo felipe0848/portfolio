@@ -1,6 +1,8 @@
+/* eslint-disable camelcase */
 import type { Metadata } from 'next'
 import { Fira_Code } from 'next/font/google'
 import './globals.css'
+import Header from '@/components/header'
 
 const fira = Fira_Code({ subsets: ['latin'] })
 
@@ -16,7 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={fira.className}>{children}</body>
+      <body className={`${fira.className} bg-primary-black`}>
+        <main className="m-5 bg-primary-blue h-[calc(100vh-2.5rem)] rounded-lg border-lines border">
+          <Header />
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
