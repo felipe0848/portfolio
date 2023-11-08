@@ -21,7 +21,7 @@ export default function Header() {
           _hello
         </Link>
         <Link
-          href="/"
+          href="/about_me"
           className={`${pathname === '/about_me'
             ? 'border-b-accent-orange text-white border-b-2 cursor-default '
             : 'border-b hover:text-white hover:border-b-accent-orange hover:border-b-2 '
@@ -30,7 +30,7 @@ export default function Header() {
           _about-me
         </Link>
         <Link
-          href="/"
+          href="/projects"
           className={`${pathname === '/projects'
             ? 'border-b-accent-orange text-white border-b-2 cursor-default '
             : 'border-b hover:text-white hover:border-b-accent-orange hover:border-b-2 '
@@ -41,7 +41,7 @@ export default function Header() {
       </div>
       <div className="flex-1 border-b border-lines"></div>
       <Link
-        href="/"
+        href="/contact"
         className={`${pathname === '/contact'
           ? 'border-b-accent-orange text-white border-b-2 cursor-default '
           : 'border-b hover:text-white hover:border-b-accent-orange hover:border-b-2 '

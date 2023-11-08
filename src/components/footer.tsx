@@ -18,7 +18,7 @@ export default function Footer() {
         rel="noreferrer"
         className="hover:text-gray-300"
       >
-        <div className="flex px-6 py-4 border-x border-lines gap-2 items-center">
+        <div className="flex px-6 py-4 border-l border-lines gap-2 items-center">
           <p>@felipe0848</p>
           <i className="ri-github-fill ri-xl" />
         </div>
