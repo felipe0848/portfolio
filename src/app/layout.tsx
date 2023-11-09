@@ -2,6 +2,7 @@
 import type { Metadata } from 'next'
 import { Fira_Code } from 'next/font/google'
 import './globals.css'
+import '@/lib/highlight-custom.css'
 import 'remixicon/fonts/remixicon.css'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
