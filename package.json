@@ -12,6 +12,7 @@
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-syntax-highlighter": "^15.5.0",
     "remixicon": "^3.5.0"
   },
   "devDependencies": {
@@ -19,6 +20,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-syntax-highlighter": "^15.5.10",
     "autoprefixer": "^10.0.1",
     "eslint": "^8.53.0",
     "eslint-config-next": "14.0.1",
