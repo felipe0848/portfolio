@@ -12,6 +12,7 @@ const config: Config = {
         'primary-black': '#01080E',
         'primary-blue': '#011627',
         'primary-dark-blue': '#011221',
+        'primary-gray': '#E5E9F0',
 
         'secondary-blue': '#607B96',
         'secondary-green': '#3C9D93',
@@ -25,6 +26,13 @@ const config: Config = {
         'accent-pink': '#C98BDF',
 
         lines: '#1E2D3D',
+      },
+      fontSize: {
+        headline: '3.875rem',
+        subHeadline: '2rem',
+        bodyText: '1.125rem',
+        labels: '1rem',
+        code: '0.875rem',
       },
     },
   },
