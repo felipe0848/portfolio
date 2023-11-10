@@ -9,13 +9,13 @@ export const snippets = [
       <h1> Felipe Soares </h1>
       <h2> > Full-stack developer </h2>
       <p> // you can also see it on my Github page </p>
-      <span>
-        <p> const githubLink = </p>
-        <a href="https://github.com/felipe0848">
-          “https://github.com/felipe0848”
-        </a>
-      </span>
-      </div>`,
+      <p>
+        const githubLink = 
+        <a> “https://github.com/felipe0848” </a>
+      </p>
+    </div>
+  )
+}`,
   },
   {
     id: 2,
