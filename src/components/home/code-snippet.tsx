@@ -6,11 +6,7 @@ interface CodeSnippetProps {
 }
 export default function CodeSnippet({ item }: CodeSnippetProps) {
   return (
-    <SyntaxHighlighter
-      language={item.language}
-      useInlineStyles={false}
-      className=""
-    >
+    <SyntaxHighlighter language={item.language} useInlineStyles={false}>
       {item.code}
     </SyntaxHighlighter>
   )

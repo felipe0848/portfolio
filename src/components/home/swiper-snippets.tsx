@@ -1,11 +1,9 @@
 'use client'
-import CodeSnippet from '@/components/code-snippet'
+import CodeSnippet from '@/components/home/code-snippet'
 import { snippets } from '@/db/snippets'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
 import { Autoplay } from 'swiper/modules'
 
 export default function SwiperSnippets() {
@@ -23,7 +21,7 @@ export default function SwiperSnippets() {
         modules={[Autoplay]}
       >
         {snippets.map((item) => (
-          <SwiperSlide key={item.id} className="active:opacity-40">
+          <SwiperSlide key={item.id}>
             <CodeSnippet item={item} />
           </SwiperSlide>
         ))}
