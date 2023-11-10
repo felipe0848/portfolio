@@ -4,6 +4,7 @@ import { Fira_Code } from 'next/font/google'
 import './globals.css'
 import '@/lib/highlight-custom.css'
 import 'remixicon/fonts/remixicon.css'
+
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 
@@ -24,7 +25,7 @@ export default function RootLayout({
       <body className={`${fira.className} bg-primary-black`}>
         <main className="m-5 bg-primary-blue h-[calc(100vh-2.5rem)] rounded-lg border-lines border flex flex-col">
           <Header />
-          <div className="flex-1">{children}</div>
+          <div className="h-[calc(100vh-2.5rem-7.3rem)]">{children}</div>
           <Footer />
         </main>
       </body>

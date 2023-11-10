@@ -1,15 +1,8 @@
 import Image from 'next/image'
-import SyntaxHighlighter from 'react-syntax-highlighter'
 import blursImg from '@/assets/background-blurs.svg'
+import SwiperSnippets from '@/components/swiper-snippets'
 
 export default function Home() {
-  const codeString = `function initializeModelChunk<T>(chunk: ResolvedModelChunk): T {
-    const value: T = parseModel(chunk._response, chunk._value);
-    const initializedChunk: InitializedChunk<T> = (chunk: any);
-    initializedChunk._status = INITIALIZED;
-    initializedChunk._value = value;
-    return value;
-  }`
   return (
     <div className="flex gap-20 h-full w-full justify-center items-center">
       <div className="text-primary-gray">
@@ -39,7 +32,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 relative">
+      <div className="h-[700px] flex justify-center items-center">
         <Image
           src={blursImg}
           alt=""
@@ -47,29 +40,7 @@ export default function Home() {
           width={750}
           height={780}
         />
-        <SyntaxHighlighter
-          language="javascript"
-          useInlineStyles={false}
-          className="opacity-40"
-        >
-          {codeString}
-        </SyntaxHighlighter>
-
-        <SyntaxHighlighter
-          language="javascript"
-          useInlineStyles={false}
-          className="z-10"
-        >
-          {codeString}
-        </SyntaxHighlighter>
-
-        <SyntaxHighlighter
-          language="javascript"
-          useInlineStyles={false}
-          className="opacity-40"
-        >
-          {codeString}
-        </SyntaxHighlighter>
+        <SwiperSnippets />
       </div>
     </div>
   )

@@ -32,3 +32,12 @@
 body{
   color: var(--secondary-blue)
 }
+
+.swiper-slide-active{
+  z-index: 10;
+}
+
+.swiper-slide-next, .swiper-slide-prev{
+  opacity: 0.4;
+  z-index: 0;
+}
