@@ -1,9 +1,11 @@
 export default function Welcome() {
   return (
-    <div className="text-primary-gray">
+    <div className="text-primary-gray sm:min-w-[425px]">
       <p className="text-bodyText font-medium">Hi all, I am</p>
-      <h1 className="text-headline -mt-3">Felipe Soares</h1>
-      <h2 className="text-subHeadline text-secondary-purple -mt-3">
+      <h1 className="text-5xl phone-xl:text-headline leading-[4rem] ">
+        Felipe Soares
+      </h1>
+      <h2 className="text-2xl phone-xl:text-subHeadline text-secondary-purple">
         {'> '}Full-stack developer
       </h2>
 
