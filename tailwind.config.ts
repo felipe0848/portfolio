@@ -34,6 +34,11 @@ const config: Config = {
         labels: '1rem',
         code: '0.875rem',
       },
+      screens: {
+        'phone-sm': '320px',
+        'phone-md': '375px',
+        'phone-xl': '425px',
+      },
     },
   },
   plugins: [],

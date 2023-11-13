@@ -32,6 +32,21 @@
 body{
   color: var(--secondary-blue)
 }
+@media(max-width: 768px){
+  html{
+    font-size: 77%;
+  }
+}
+@media(min-width: 769px){
+  html{
+    font-size: 90%;
+  }
+}
+@media(min-width: 1280px){
+  html{
+    font-size: 100%;
+  }
+}
 
 .swiper-slide-active{
   z-index: 10;
