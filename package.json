@@ -12,6 +12,7 @@
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-responsive": "^9.0.2",
     "react-syntax-highlighter": "^15.5.0",
     "remixicon": "^3.5.0",
     "swiper": "^11.0.4"
