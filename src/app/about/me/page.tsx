@@ -1,24 +1,12 @@
 export default function AboutMe() {
   return (
     <div className="flex grow">
-      <aside className="flex flex-col gap-8 p-4">
-        <button className="px-2">
-          <i className="ri-terminal-box-fill ri-xl" />
-        </button>
-        <button className="px-2">
-          <i className="ri-sparkling-2-fill ri-xl" />
-        </button>
-        <button className="px-2">
-          <i className="ri-gamepad-fill ri-xl" />
-        </button>
-      </aside>
-
       <div className="flex flex-col border-x border-lines">
         <h3 className="px-3 py-4 border-b border-lines text-white">
           <i className="ri-arrow-down-s-fill" />
           personal-info
         </h3>
-        <div className="px-3 py-4 flex flex-col gap-1">
+        <div className="px-3 py-4 flex flex-col gap-1 ">
           <p>
             <i className="ri-arrow-right-s-line" />
             <i className="ri-folder-3-fill" />
