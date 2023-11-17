@@ -21,8 +21,8 @@ export default function Navbar() {
           _hello
         </Link>
         <Link
-          href="/about_me"
-          className={`${pathname === '/about_me' ? activeStyle : inactiveStyle
+          href="/about/me"
+          className={`${pathname.startsWith('/about') ? activeStyle : inactiveStyle
             } py-4 flex px-8 border-l border-lines`}
         >
           _about-me

@@ -23,7 +23,7 @@ export default function NavbarMobile() {
                 </Link>
               </Dialog.Close>
               <Dialog.Close asChild>
-                <Link href="/about_me" className={'border-b p-4 border-lines'}>
+                <Link href="/about/me" className={'border-b p-4 border-lines'}>
                   _about-me
                 </Link>
               </Dialog.Close>
