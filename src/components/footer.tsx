@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="flex phone-md:justify-between items-center border-t border-lines">
+    <footer className="flex phone-md:justify-between items-center border-t border-lines mt-auto">
       <div className="flex pl-6 gap-4 items-center">
         <p>find me in</p>
         <a

@@ -23,11 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${fira.className} bg-primary-black`}>
-        <main className="m-5 bg-primary-blue h-[calc(100vh-2.5rem)] w-[calc(100vw-2.5rem)] rounded-lg border-lines border flex flex-col mx-auto max-w-[1400px] max-h-[1040px]">
+        <main className="m-5 bg-primary-blue min-h-[calc(100vh-2.5rem)] w-[calc(100vw-2.5rem)] rounded-lg border-lines border flex flex-col mx-auto max-w-[1400px] max-h-[1040px]">
           <Header />
-          <div className="h-full sm:h-[calc(100vh-2.5rem-7.3rem)]">
-            {children}
-          </div>
+          <div className="h-full">{children}</div>
           <Footer />
         </main>
       </body>
