@@ -5,7 +5,7 @@ import Welcome from '@/components/home/welcome'
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-20 h-full w-full justify-center items-center xl:flex-row p-8">
+    <div className="flex flex-col grow gap-20 h-full w-full justify-center items-center xl:flex-row p-8">
       <Welcome />
 
       <SwiperSnippets />
