@@ -1,51 +1,15 @@
-export default function AboutMe() {
+/* eslint-disable prettier/prettier */
+
+import Explorer from "@/components/about-me/explorer"
+
+
+
+export default function MainAbout() {
   return (
     <div className="flex grow">
-      <div className="flex flex-col border-x border-lines">
-        <h3 className="px-3 py-4 border-b border-lines text-white">
-          <i className="ri-arrow-down-s-fill" />
-          personal-info
-        </h3>
-        <div className="px-3 py-4 flex flex-col gap-1 ">
-          <p>
-            <i className="ri-arrow-right-s-line" />
-            <i className="ri-folder-3-fill" />
-            bio
-          </p>
-          <p>
-            <i className="ri-arrow-right-s-line" />
-            <i className="ri-folder-3-fill" />
-            interests
-          </p>
-          <p>
-            <i className="ri-arrow-down-s-line" />
-            <i className="ri-folder-3-fill" />
-            education
-          </p>
-          <p>
-            <i className="ri-markdown-fill" />
-            high-school
-          </p>
-          <p>
-            <i className="ri-markdown-fill" />
-            university
-          </p>
-        </div>
-        <h3 className="px-3 py-4 border-y border-lines text-white">
-          <i className="ri-arrow-down-s-fill" />
-          contacts
-        </h3>
-        <div className="px-3 py-4 flex flex-col gap-1 w-max">
-          <p>
-            <i className="ri-mail-fill" />
-            user@gmail.com
-          </p>
-          <p>
-            <i className="ri-phone-fill" />
-            +55 67 9 9692-8852
-          </p>
-        </div>
-      </div>
+      <Explorer />
+
+
       <div className="flex flex-col w-full">
         <div className="border-b border-lines">
           <p className="px-3 py-2 min-w-[12rem] w-fit flex justify-between border-r border-lines">
