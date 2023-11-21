@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 
 export default function Aside() {
   const pathname = usePathname()
-  console.log(pathname)
+
   return (
     <aside className="flex flex-col gap-8 p-4">
       <Link
