@@ -1,5 +1,6 @@
 import { snippetType } from '@/db/snippets'
 import SyntaxHighlighter from 'react-syntax-highlighter'
+import '@/lib/highlight-custom.css'
 
 interface CodeSnippetProps {
   item: snippetType
