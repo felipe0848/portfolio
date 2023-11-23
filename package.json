@@ -18,7 +18,8 @@
     "react-responsive": "^9.0.2",
     "react-syntax-highlighter": "^15.5.0",
     "remixicon": "^3.5.0",
-    "swiper": "^11.0.4"
+    "swiper": "^11.0.4",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
@@ -26,6 +27,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-syntax-highlighter": "^15.5.10",
+    "@types/uuid": "^9.0.7",
     "autoprefixer": "^10.0.1",
     "eslint": "^8.53.0",
     "eslint-config-next": "14.0.1",
