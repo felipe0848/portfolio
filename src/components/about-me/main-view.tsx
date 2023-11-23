@@ -9,8 +9,8 @@ export default function MainView() {
   const { codes, inFocus } = useContext(CodeViewContext)
 
   return (
-    <div className="flex flex-col w-full">
-      <div className="border-b border-lines flex bg-primary-dark-blue">
+    <div className="flex flex-col w-full overflow-hidden">
+      <div className="border-b border-lines flex bg-primary-dark-blue overflow-auto whitespace-nowrap">
         {codes.map((code) => (
           <CodeWindow key={code.title} title={code.title} />
         ))}
@@ -21,6 +21,8 @@ export default function MainView() {
             language={inFocus.language}
             useInlineStyles={false}
             showLineNumbers
+            wrapLines
+            wrapLongLines
             lineNumberStyle={{
               color: 'var(--secondary-blue)',
             }}

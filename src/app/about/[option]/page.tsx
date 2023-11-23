@@ -10,7 +10,7 @@ export default function MainAbout() {
   const params = useParams()
   const option = String(params.option) as keyof aboutInfosType
   return (
-    <div className="flex grow">
+    <div className="flex grow overflow-hidden">
       <Accordion.Root
         type="multiple"
         className="flex flex-col border-x min-w-[300px] border-lines"
