@@ -1,6 +1,8 @@
+import { v4 as uuidv4 } from 'uuid'
+
 export const snippets = [
   {
-    id: 1,
+    id: uuidv4(),
     language: 'javascript',
     code: `export default function Hello() {
   return (
@@ -18,7 +20,7 @@ export const snippets = [
 }`,
   },
   {
-    id: 2,
+    id: uuidv4(),
     language: 'javascript',
     code: `export default function SwiperSnippets() {
   return (
@@ -36,7 +38,7 @@ export const snippets = [
 }`,
   },
   {
-    id: 3,
+    id: uuidv4(),
     language: 'typescript',
     code: `import { snippetType } from '@/db/snippets'
 import SyntaxHighlighter from 'react-syntax-highlighter'
