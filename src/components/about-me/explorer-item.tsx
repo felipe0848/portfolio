@@ -8,7 +8,7 @@ interface ExplorerItemProps {
 }
 export default function ExplorerItem({ item }: ExplorerItemProps) {
   return (
-    <Accordion.Item value={item.innerText} key={item.id}>
+    <Accordion.Item value={item.innerText}>
 
       <Accordion.Trigger asChild>
         <span className="[&>i]:data-[state=open]:rotate-90 px-3 py-4 gap-1 flex border-b border-lines text-gray-300 hover:text-white cursor-pointer">
