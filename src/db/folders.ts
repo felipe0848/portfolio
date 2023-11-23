@@ -41,15 +41,25 @@ export const aboutInfos = {
             {
               type: 'markdown',
               innerText: 'voleyball',
-              content: `/**
-            lorem ipsum dolor sit amet, 
-            * consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            * magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco in
-            * nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit 
-            *
-            * Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  
-            * nulla pariatur. Excepteur sint occaecat officia deserunt mollit est laborum.
-            */`,
+              content: `## Learn More
+To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+              
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+              
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+              
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+              `,
             },
           ],
         },
