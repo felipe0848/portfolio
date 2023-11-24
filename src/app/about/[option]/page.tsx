@@ -10,10 +10,10 @@ export default function MainAbout() {
   const params = useParams()
   const option = String(params.option) as keyof aboutInfosType
   return (
-    <div className="flex grow overflow-hidden">
+    <div className="flex flex-col grow overflow-hidden md:flex-row">
       <Accordion.Root
         type="multiple"
-        className="flex flex-col border-x min-w-[300px] border-lines"
+        className="flex flex-col md:border-x min-w-[300px] border-lines"
       >
         {aboutInfos[option].map((item) => (
           <ExplorerItem item={item} key={item.id} />
