@@ -18,6 +18,10 @@ export default function MainAbout() {
         {aboutInfos[option].map((item) => (
           <ExplorerItem item={item} key={item.id} />
         ))}
+        {aboutInfos.contacts.map((item) => (
+          <ExplorerItem item={item} key={item.id} />
+        ))
+        }
       </Accordion.Root>
 
       <MainView />

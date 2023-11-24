@@ -9,6 +9,7 @@ export interface aboutInfosType {
   me: infosType[]
   pro: infosType[]
   hobbies: infosType[]
+  contacts: infosType[]
 }
 export const aboutInfos = {
   me: [
@@ -85,21 +86,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
             */`,
             },
           ],
-        },
-      ],
-    },
-    {
-      id: uuidv4(),
-      type: 'title',
-      innerText: 'contacts',
-      content: [
-        {
-          type: 'mail',
-          innerText: 'felipe.11.11@hotmail.com',
-        },
-        {
-          type: 'phone',
-          innerText: '+55 (67) 9 9692-8852',
         },
       ],
     },
@@ -186,21 +172,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
         },
       ],
     },
-    {
-      id: uuidv4(),
-      type: 'title',
-      innerText: 'contacts',
-      content: [
-        {
-          type: 'mail',
-          innerText: 'felipe.11.11@hotmail.com',
-        },
-        {
-          type: 'phone',
-          innerText: '+55 (67) 9 9692-8852',
-        },
-      ],
-    },
   ],
   hobbies: [
     {
@@ -284,6 +255,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
         },
       ],
     },
+  ],
+  contacts: [
     {
       id: uuidv4(),
       type: 'title',
