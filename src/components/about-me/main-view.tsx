@@ -2,7 +2,7 @@
 import { CodeViewContext } from '@/context/code-view'
 import { useContext } from 'react'
 import CodeWindow from './code-window'
-import '@/lib/highlight-without-bg.css'
+import '@/lib/highlight-custom.css'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 
 export default function MainView() {
@@ -21,10 +21,13 @@ export default function MainView() {
             language={inFocus.language}
             useInlineStyles={false}
             showLineNumbers
-            wrapLines
-            wrapLongLines
             lineNumberStyle={{
               color: 'var(--secondary-blue)',
+            }}
+            customStyle={{
+              background: 'transparent',
+              border: 'none',
+              padding: '1rem 0.5rem',
             }}
           >
             {inFocus.content}
