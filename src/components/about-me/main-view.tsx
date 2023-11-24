@@ -28,6 +28,7 @@ export default function MainView() {
               background: 'transparent',
               border: 'none',
               padding: '1rem 0.5rem',
+              overflow: 'auto',
             }}
           >
             {inFocus.content}
