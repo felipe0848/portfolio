@@ -1,4 +1,5 @@
 import ProjectCard from '@/components/projects/project-card'
+import { projects } from '@/db/projects'
 
 const projectFake = {
   title: 'Coffe Delivery',
@@ -22,10 +23,10 @@ export default function Projects() {
           </button>
         </span>
       </div>
-      <div className="flex grow items-center justify-center gap-x-6 gap-y-8 flex-wrap p-8">
-        <ProjectCard project={projectFake} />
-        <ProjectCard project={projectFake} />
-        <ProjectCard project={projectFake} />
+      <div className="flex flex-col max-h-[100vh] overflow-auto grow items-center justify-center gap-x-6 gap-y-8 flex-wrap p-8">
+        {projects.map((project) => (
+          <ProjectCard project={project} key={project.title} />
+        ))}
         <ProjectCard project={projectFake} />
         <ProjectCard project={projectFake} />
         <ProjectCard project={projectFake} />
