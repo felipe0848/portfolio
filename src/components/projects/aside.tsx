@@ -1,8 +1,8 @@
 'use client'
 import * as Collapsible from '@radix-ui/react-collapsible'
 import * as Checkbox from '@radix-ui/react-checkbox'
-
-const array = new Array(7).fill(1)
+import { projectsTags } from '@/db/projects'
+import Image from 'next/image'
 
 export default function Aside() {
   return (
@@ -15,22 +15,27 @@ export default function Aside() {
           </span>
         </Collapsible.Trigger>
         <Collapsible.Content className="flex flex-col px-4 py-3 gap-4">
-          {array.map((item, index) => (
-            <span key={index} className="flex items-center gap-5">
+          {projectsTags.map(({ name, icon }) => (
+            <span key={name} className="flex items-center gap-5">
               <Checkbox.Root
                 className="border-2 border-secondary-blue w-6 h-6 rounded flex justify-center items-center data-[state=checked]:bg-secondary-blue hover:outline outline-lines/90"
-                id={`${index}`}
+                id={name}
               >
                 <Checkbox.Indicator>
                   <i className="ri-check-fill text-gray-300" />
                 </Checkbox.Indicator>
               </Checkbox.Root>
               <label
-                htmlFor={`${index}`}
+                htmlFor={name}
                 className="flex items-center gap-2 cursor-pointer text-secondary-blue"
               >
-                <i className="ri-reactjs-fill ri-xl" />
-                <p>alguma coisa {index + 1}</p>
+                <Image
+                  alt=""
+                  height="24"
+                  width="24"
+                  src={`https://cdn.simpleicons.org/${icon}/607B96`}
+                />
+                <p>{name}</p>
               </label>
             </span>
           ))}
