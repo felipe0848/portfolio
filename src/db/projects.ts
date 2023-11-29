@@ -52,6 +52,6 @@ export const projects = [
       'O desafio era implementar um timer para a utilização da técnica de Pomodoro',
     githubUrl: 'https://github.com/felipe0848/pomodoro',
     deployUrl: 'https://pomodoro-bay-tau.vercel.app/',
-    tags: ['React', 'NextJs', 'Styled-Components', 'GraphQl'],
+    tags: ['React', 'Vite', 'Styled-Components'],
   },
 ]
