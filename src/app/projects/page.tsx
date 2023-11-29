@@ -29,7 +29,6 @@ export default function Projects() {
         ))}
         <ProjectCard project={projectFake} />
         <ProjectCard project={projectFake} />
-        <ProjectCard project={projectFake} />
       </div>
     </div>
   )

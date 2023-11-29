@@ -15,10 +15,27 @@ export default function Aside() {
           </span>
         </Collapsible.Trigger>
         <Collapsible.Content className="flex flex-col px-4 py-3 gap-4">
+          <span className="flex items-center gap-5">
+            <Checkbox.Root
+              className="peer border-2 border-secondary-blue w-6 h-6 rounded flex justify-center items-center data-[state=checked]:bg-secondary-blue hover:outline outline-lines/90"
+              id="allItems"
+              onCheckedChange={(check) => console.log(check)}
+            >
+              <Checkbox.Indicator>
+                <i className="ri-check-fill text-gray-300" />
+              </Checkbox.Indicator>
+            </Checkbox.Root>
+            <label
+              htmlFor="allItems"
+              className="peer-aria-checked:text-gray-300 flex items-center gap-2 cursor-pointer text-secondary-blue"
+            >
+              <strong>Todos os Projetos</strong>
+            </label>
+          </span>
           {projectsTags.map(({ name, icon }) => (
             <span key={name} className="flex items-center gap-5">
               <Checkbox.Root
-                className="border-2 border-secondary-blue w-6 h-6 rounded flex justify-center items-center data-[state=checked]:bg-secondary-blue hover:outline outline-lines/90"
+                className="peer border-2 border-secondary-blue w-6 h-6 rounded flex justify-center items-center data-[state=checked]:bg-secondary-blue hover:outline outline-lines/90"
                 id={name}
               >
                 <Checkbox.Indicator>
@@ -27,13 +44,13 @@ export default function Aside() {
               </Checkbox.Root>
               <label
                 htmlFor={name}
-                className="flex items-center gap-2 cursor-pointer text-secondary-blue"
+                className="peer-aria-checked:text-gray-300 flex items-center gap-2 cursor-pointer text-secondary-blue"
               >
                 <Image
                   alt=""
                   height="24"
                   width="24"
-                  src={`https://cdn.simpleicons.org/${icon}/607B96`}
+                  src={`https://cdn.simpleicons.org/${icon}`}
                 />
                 <p>{name}</p>
               </label>
