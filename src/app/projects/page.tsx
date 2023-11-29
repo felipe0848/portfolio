@@ -1,3 +1,4 @@
+import NavigationTab from '@/components/projects/navigation-tab'
 import ProjectCard from '@/components/projects/project-card'
 import { projects } from '@/db/projects'
 
@@ -15,13 +16,7 @@ export default function Projects() {
   return (
     <div className="flex flex-col grow">
       <div className="border-b border-lines">
-        <span className="flex relative pl-3 py-2 gap-1 pr-16 border-r border-lines w-fit">
-          <p>React;</p>
-          <p>Vue;</p>
-          <button className="absolute top-2 right-3">
-            <i className="ri-close-fill" />
-          </button>
-        </span>
+        <NavigationTab />
       </div>
       <div className="flex flex-col max-h-[100vh] overflow-auto grow items-center justify-center gap-x-6 gap-y-8 flex-wrap p-8">
         {projects.map((project) => (

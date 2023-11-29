@@ -17,11 +17,13 @@ interface ProjectsFilterProviderProps {
 export function ProjectsFilterProvider({
   children,
 }: ProjectsFilterProviderProps) {
-  const [filter, setFilter] = useState<string[]>([])
   const alltags = projectsTags.map((tag) => tag.name)
+  const [filter, setFilter] = useState<string[]>([
+    'Todos os Projetos',
+    ...alltags,
+  ])
 
   function changeFilter(filterName: string, checked: boolean) {
-    console.log({ filterName, checked })
     let newFilter = ['']
 
     if (filterName === 'Todos os Projetos') {
