@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="mt- flex items-center border-t border-lines phone-md:justify-between">
       <div className="flex items-center gap-4 pl-6">
-        <p>find me in</p>
+        <p>ache-me no</p>
         <a
           href="https://www.linkedin.com/in/felipe0848/"
           target="_blank"

@@ -17,7 +17,7 @@ export default function CodeWindow({ title }: CodeWindowProps) {
     <div className="relative">
       <span
         // eslint-disable-next-line prettier/prettier
-        className={`px-3 py-2 min-w-[12rem] w-fit flex justify-between border-r border-lines cursor-pointer ${onInFocus ? 'text-gray-300 bg-primary-blue border-b border-b-accent-red' : ''}`}
+        className={`pl-3 py-2 pr-12 min-w-[12rem] w-fit flex justify-between border-r border-lines cursor-pointer ${onInFocus ? 'text-gray-300 bg-primary-blue border-b border-b-accent-red' : ''}`}
         onClick={handleChangeFocus}
       >
         <p>{title}</p>

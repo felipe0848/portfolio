@@ -19,23 +19,23 @@ export default function NavbarMobile() {
             <nav className="flex flex-col text-white">
               <Dialog.Close asChild>
                 <Link href="/" className={'border-b border-lines p-4'}>
-                  _hello
+                  _ola
                 </Link>
               </Dialog.Close>
               <Dialog.Close asChild>
                 <Link href="/about/me" className={'border-b border-lines p-4'}>
-                  _about-me
+                  _sobre-mim
                 </Link>
               </Dialog.Close>
               <Dialog.Close asChild>
                 <Link href="/projects" className={'border-b border-lines p-4'}>
-                  _projects
+                  _projetos
                 </Link>
               </Dialog.Close>
 
               <Dialog.Close asChild>
                 <Link href="/contact" className={'border-b border-lines p-4'}>
-                  _contact-me
+                  _contate-me
                 </Link>
               </Dialog.Close>
             </nav>

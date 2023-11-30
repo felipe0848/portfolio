@@ -19,7 +19,7 @@ export default function Navbar() {
             pathname === '/' ? activeStyle : inactiveStyle
           } flex border-l border-lines px-8 py-4`}
         >
-          _hello
+          _ola
         </Link>
         <Link
           href="/about/me"
@@ -27,7 +27,7 @@ export default function Navbar() {
             pathname.startsWith('/about') ? activeStyle : inactiveStyle
           } flex border-l border-lines px-8 py-4`}
         >
-          _about-me
+          _sobre-mim
         </Link>
         <Link
           href="/projects"
@@ -35,7 +35,7 @@ export default function Navbar() {
             pathname === '/projects' ? activeStyle : inactiveStyle
           } flex border-x border-lines px-8 py-4`}
         >
-          _projects
+          _projetos
         </Link>
       </div>
 
@@ -46,7 +46,7 @@ export default function Navbar() {
           pathname === '/contact' ? activeStyle : inactiveStyle
         } flex border-l border-lines px-6 py-4`}
       >
-        _contact-me
+        _contate-me
       </Link>
     </nav>
   )

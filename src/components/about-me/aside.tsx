@@ -27,16 +27,6 @@ export default function Aside() {
         <i className="ri-user-3-fill ri-xl" />
         <p className="phone-xl:hidden">/me</p>
       </Link>
-      <Link
-        href="/about/hobbies"
-        className={`${
-          pathname === '/about/hobbies' ? 'opacity-100' : 'opacity-40'
-        } flex items-center gap-1 px-2 hover:text-gray-300`}
-        title="Hobbies"
-      >
-        <i className="ri-gamepad-fill ri-xl" />
-        <p className="phone-xl:hidden">/hobbies</p>
-      </Link>
     </aside>
   )
 }
