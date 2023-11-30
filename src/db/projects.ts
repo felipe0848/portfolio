@@ -2,6 +2,7 @@ import coffeDeliveryImg from '@/assets/coffe-delivery.png'
 import githubBlogImg from '@/assets/github-blog.png'
 import smithStoreImg from '@/assets/smith-store.png'
 import pomodoroImg from '@/assets/pomodoro.png'
+import toDoImg from '@/assets/to-do.png'
 
 export const projectsTags = [
   { name: 'React', icon: 'react' },
@@ -52,6 +53,16 @@ export const projects = [
       'O desafio era implementar um timer para a utilização da técnica de Pomodoro',
     githubUrl: 'https://github.com/felipe0848/pomodoro',
     deployUrl: 'https://pomodoro-bay-tau.vercel.app/',
+    tags: ['React', 'Vite', 'Styled-Components'],
+  },
+  {
+    title: 'To-Do List',
+    subtitle: 'controle-de-tarefas',
+    imageUrl: toDoImg,
+    description:
+      'O desafio era desenvolver uma aplicação de controle de tarefas estilo to-do list',
+    githubUrl: 'https://github.com/felipe0848/To-do',
+    deployUrl: 'https://to-do-seven-roan.vercel.app/',
     tags: ['React', 'Vite', 'Styled-Components'],
   },
 ]
