@@ -16,7 +16,7 @@ export const aboutInfos = {
     {
       id: uuidv4(),
       type: 'title',
-      innerText: 'personal-info',
+      innerText: 'infomações pessoais',
       content: [
         {
           type: 'folder',
@@ -24,66 +24,68 @@ export const aboutInfos = {
           content: [
             {
               type: 'markdown',
-              innerText: 'story',
-              content: `/**
-            * STORY STORY STORY
-            * lorem ipsum dolor sit amet, 
-            * consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            * magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco in
-            * nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit 
-            */`,
-            },
-          ],
-        },
-        {
-          type: 'folder',
-          innerText: 'interests',
-          content: [
-            {
-              type: 'markdown',
-              innerText: 'voleyball',
-              content: `## Learn More
-To learn more about Next.js, take a look at the following resources:
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-              
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+              innerText: 'apresentação',
+              content: `Sou um desenvolvedor web Fullstack, com conhecimento em **JavaScript**, 
+**TypeScript**, **React** e **Next.js**. 
 
-To learn more about Next.js, take a look at the following resources:
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-              
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-To learn more about Next.js, take a look at the following resources:
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-              
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Atualmente, estou cursando Sistemas de Informação na Universidade Federal do Mato
+Grosso do Sul, buscando aprimorar minhas habilidades e aplicá-las em projetos 
+inovadores. Estou sempre me atualizando e buscando novos cursos para estar na 
+vanguarda da tecnologia e de tendências do desenvolvimento web.
               `,
             },
           ],
         },
         {
           type: 'folder',
-          innerText: 'education',
+          innerText: 'interesses',
           content: [
             {
               type: 'markdown',
-              innerText: 'high-school',
-              content: `/**
-            * Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  
-            * nulla pariatur. Excepteur sint occaecat officia deserunt mollit est laborum.
-            */`,
+              innerText: 'lista de interesses',
+              content: `*Uma lista de coisas que tenho interesse:*
+## Vôlei
+## Músicas antigas
+## Jogos de FPS
+## Mercado/Economia
+`,
+            },
+          ],
+        },
+        {
+          type: 'folder',
+          innerText: 'formação',
+          content: [
+            {
+              type: 'markdown',
+              innerText: 'Graduação',
+              content: `#Bacharelado *(Em andamento)*
+*Universidade Federal do Mato Grosso do Sul - Sistemas de Informação*
+02/2023 - 12/2026`,
             },
             {
               type: 'markdown',
-              innerText: 'university',
-              content: `/**
-            * UNIVERSITY
-            * Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  
-            * nulla pariatur. Excepteur sint occaecat officia deserunt mollit est laborum.
-            */`,
+              innerText: 'React',
+              content: `Durante o curso de React, adquiri habilidades essenciais na construção de
+interfaces dinâmicas e interativas. Aprendi a criar componentes reutilizáveis,
+manipular o estado da aplicação e integrar com APIs.
+
+Alguns tópicos que tenho conhecimento:
+## Principais Hooks;
+## Context API;
+## Next.js.`,
+            },
+            {
+              type: 'markdown',
+              innerText: 'NodeJS',
+              content: `No decorrer do curso de Node.js, adquiri habilidades para construir aplicativos
+do lado do servidor, compreendendo como criar APIs eficientes no padrão REST, 
+lidar com solicitações HTTP e gerenciar bancos de dados.
+
+Alguns tópicos que tenho conhecimento:
+## Express;
+## Criação de APIs;
+## Integração com Banco de Dados (SQL e NoSQL).`,
             },
           ],
         },
@@ -94,173 +96,82 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
     {
       id: uuidv4(),
       type: 'title',
-      innerText: 'professional-info',
+      innerText: 'informações profissionais',
       content: [
         {
           type: 'folder',
-          innerText: 'companies',
+          innerText: 'experiencia',
           content: [
             {
               type: 'markdown',
               innerText: 'JBS - Seara Alimentos',
-              content: `/**
-            * About me
-            * I have 5 years of еxperience in web development lorem ipsum dolor sit amet, 
-            * consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            * magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco in
-            * nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit 
-            *
-            * Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  
-            * nulla pariatur. Excepteur sint occaecat officia deserunt mollit est laborum.
-            */`,
+              content: `#Cargo: 
+  Planejamento Agropecuário (05/2021 - 06/2023)
+#Principais atividades desempenhadas: 
+  *Focado em matérias-primas:* correlacionando fluxo
+  de descargas prioritárias e gestão do consumo MP diário;
+  *Focado em produto final:* fluxo de produção com demanda oriunda de campo;
+  correlacionando estoque de produto acabado x frota disponível x estoque do
+  produtor no campo.`,
             },
             {
               type: 'markdown',
               innerText: 'Prepara Cursos',
-              content: `/**
-            * About me
-            * I have 5 years of еxperience in web development lorem ipsum dolor sit amet, 
-            * consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            * magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco in
-            * nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit 
-            *
-            * Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  
-            * nulla pariatur. Excepteur sint occaecat officia deserunt mollit est laborum.
-            */`,
+              content: `#Cargo: 
+  Educador (01/2018 - 05/2021)
+#Principais atividades desempenhadas: 
+  Atender e solucionar as dúvidas de alunos.
+  Desenvolver atividades complementares para melhorar o aprendizado do aluno.`,
             },
           ],
         },
         {
           type: 'folder',
-          innerText: 'skills',
+          innerText: 'habilidades',
           content: [
             {
               type: 'markdown',
-              innerText: 'voleyball',
-              content: `/**
-            * About me
-            * I have 5 years of еxperience in web development lorem ipsum dolor sit amet, 
-            * consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            * magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco in
-            * nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit 
-            *
-            * Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  
-            * nulla pariatur. Excepteur sint occaecat officia deserunt mollit est laborum.
-            */`,
-            },
-          ],
-        },
-        {
-          type: 'folder',
-          innerText: 'certificates',
-          content: [
-            {
-              type: 'markdown',
-              innerText: 'curso do mano brow',
-              content: `/**
-            * About me
-            * I have 5 years of еxperience in web development lorem ipsum dolor sit amet, 
-            * consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            * magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco in
-            * nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit 
-            *
-            * Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  
-            * nulla pariatur. Excepteur sint occaecat officia deserunt mollit est laborum.
-            */`,
+              innerText: 'tecnologias',
+              content: `*JavaScript*
+## Promisse
+## Consumo de AP
+## POO
+
+*TypeScript*
+## Tipagem
+
+*Node JS*
+## Express
+## Fastify
+## Testes Automatizados
+
+*React*
+## Hooks
+## Context API
+## Testes Automatizados
+
+*Next JS*
+## App Router
+## Router Pages
+
+*Python*
+## Básico em programação
+
+*C*
+## Básico em programação
+## Uso de ponteiros`,
             },
           ],
         },
       ],
     },
   ],
-  hobbies: [
-    {
-      id: uuidv4(),
-      type: 'title',
-      innerText: 'personal-info',
-      content: [
-        {
-          type: 'folder',
-          innerText: 'music',
-          content: [
-            {
-              type: 'markdown',
-              innerText: 'story',
-              content: `/**
-            * About me
-            * I have 5 years of еxperience in web development lorem ipsum dolor sit amet, 
-            * consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            * magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco in
-            * nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit 
-            *
-            * Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  
-            * nulla pariatur. Excepteur sint occaecat officia deserunt mollit est laborum.
-            */`,
-            },
-          ],
-        },
-        {
-          type: 'folder',
-          innerText: 'sports',
-          content: [
-            {
-              type: 'markdown',
-              innerText: 'voleyball',
-              content: `/**
-            * About me
-            * I have 5 years of еxperience in web development lorem ipsum dolor sit amet, 
-            * consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            * magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco in
-            * nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit 
-            *
-            * Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  
-            * nulla pariatur. Excepteur sint occaecat officia deserunt mollit est laborum.
-            */`,
-            },
-          ],
-        },
-        {
-          type: 'folder',
-          innerText: 'games',
-          content: [
-            {
-              type: 'markdown',
-              innerText: 'high-school',
-              content: `/**
-            * About me
-            * I have 5 years of еxperience in web development lorem ipsum dolor sit amet, 
-            * consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            * magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco in
-            * nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit 
-            *
-            * Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  
-            * nulla pariatur. Excepteur sint occaecat officia deserunt mollit est laborum.
-            */`,
-            },
-            {
-              type: 'markdown',
-              innerText: 'university',
-              content: `/**
-            * About me
-            * I have 5 years of еxperience in web development lorem ipsum dolor sit amet, 
-            * consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            * magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco in
-            * nisi ut aliquip ex ea commodo consequat. Duis aute irure in reprehenderit 
-            *
-            * Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore  
-            * nulla pariatur. Excepteur sint occaecat officia deserunt mollit est laborum.
-            */`,
-            },
-          ],
-        },
-      ],
-    },
-  ],
+
   contacts: [
     {
       id: uuidv4(),
       type: 'title',
-      innerText: 'contacts',
+      innerText: 'contato',
       content: [
         {
           type: 'mail',
