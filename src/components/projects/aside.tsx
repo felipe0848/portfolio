@@ -2,11 +2,14 @@
 import * as Collapsible from '@radix-ui/react-collapsible'
 import { projectsTags } from '@/db/projects'
 import FilterItem from './filterItem'
+import { useMediaQuery } from 'react-responsive'
 
 export default function Aside() {
+  const tablet = useMediaQuery({ query: '(max-width: 768px)' })
+
   return (
     <aside className="min-w-[300px] border-r border-lines">
-      <Collapsible.Root defaultOpen>
+      <Collapsible.Root defaultOpen={!tablet}>
         <Collapsible.Trigger asChild>
           <span className="flex cursor-pointer items-center gap-2 border-b border-lines px-4 py-2 text-gray-300 [&>i]:data-[state=open]:rotate-90">
             <i className="ri-arrow-right-s-fill ri-xl" />

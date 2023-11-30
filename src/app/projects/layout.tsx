@@ -6,7 +6,7 @@ interface LayoutProjectsProps {
 }
 export default function LayoutProjects({ children }: LayoutProjectsProps) {
   return (
-    <div className="flex grow">
+    <div className="flex grow flex-col md:flex-row">
       <Aside />
       {children}
     </div>

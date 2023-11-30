@@ -17,7 +17,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <strong className="text-secondary-purple">{project.title}</strong>
         <p>{`// _${project.subtitle}`}</p>
       </header>
-      <div className="flex h-[315px] w-[370px] flex-col overflow-hidden rounded-lg border-2 border-lines hover:brightness-110">
+      <div className="flex h-full max-h-[315px] w-full max-w-[370px] flex-col overflow-hidden rounded-lg border-2 border-lines hover:brightness-105">
         <div className="min-h-36 w-full overflow-hidden">
           <Image alt="" src={project.imageUrl} width={386} height={145} />
         </div>
@@ -29,18 +29,20 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             <a
               href={project.githubUrl}
               target="_blank"
-              className="rounded-md bg-secondary-gray p-3 text-gray-300"
+              className="flex items-center gap-2 rounded-md border-2 border-transparent bg-secondary-gray p-3 text-gray-300 hover:border-secondary-purple hover:brightness-110"
               rel="noreferrer"
             >
-              view-code
+              <i className="ri-terminal-box-fill ri-lg text-secondary-blue" />
+              Code
             </a>
             <a
               href={project.deployUrl}
               target="_blank"
-              className="rounded-md bg-secondary-gray p-3 text-gray-300"
+              className="flex items-center gap-2 rounded-md border-2 border-transparent bg-secondary-gray p-3 text-gray-300 hover:border-secondary-purple hover:brightness-110"
               rel="noreferrer"
             >
-              view-project
+              <i className="ri-computer-fill ri-lg text-secondary-blue" />
+              Deploy
             </a>
           </div>
         </div>

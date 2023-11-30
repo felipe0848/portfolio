@@ -16,7 +16,7 @@ export const projectsTags = [
 export const projects = [
   {
     title: 'Coffe Delivery',
-    subtitle: 'e-commerce-de-cafe',
+    subtitle: 'loja-de-cafe',
     imageUrl: coffeDeliveryImg,
     description:
       'O desafio era desenvolver uma aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia',
