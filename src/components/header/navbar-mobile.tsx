@@ -10,8 +10,8 @@ export default function NavbarMobile() {
         </button>
       </Dialog.Trigger>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 bg-primary-black" />
-        <Dialog.Content className="fixed inset-5 flex flex-col rounded-lg border border-lines bg-primary-blue">
+        <Dialog.Overlay className="fixed inset-0 z-20 bg-primary-black" />
+        <Dialog.Content className="fixed inset-5 z-30 flex flex-col rounded-lg border border-lines bg-primary-blue">
           <Dialog.Title className="w-full border-b border-lines p-4">
             <p>felipe-soares</p>
           </Dialog.Title>
