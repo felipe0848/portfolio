@@ -9,14 +9,14 @@ export default function MainView() {
   const { codes, inFocus } = useContext(CodeViewContext)
 
   return (
-    <div className="flex flex-col w-full overflow-hidden border-t md:border-t-0 border-lines">
-      <div className="border-b border-lines flex bg-primary-dark-blue overflow-auto whitespace-nowrap">
+    <div className="flex w-full flex-col overflow-hidden border-t border-lines md:border-t-0">
+      <div className="flex overflow-auto whitespace-nowrap border-b border-lines bg-primary-dark-blue">
         {codes.map((code) => (
           <CodeWindow key={code.title} title={code.title} />
         ))}
       </div>
       {codes.length > 0 ? (
-        <div className="md:border-b border-lines px-3 py-2">
+        <div className="border-lines px-3 py-2 md:border-b">
           <SyntaxHighlighter
             language={inFocus.language}
             useInlineStyles={false}

@@ -1,13 +1,13 @@
 export default function Footer() {
   return (
-    <footer className="flex phone-md:justify-between items-center border-t border-lines mt-">
-      <div className="flex pl-6 gap-4 items-center">
+    <footer className="mt- flex items-center border-t border-lines phone-md:justify-between">
+      <div className="flex items-center gap-4 pl-6">
         <p>find me in</p>
         <a
           href="https://www.linkedin.com/in/felipe0848/"
           target="_blank"
           rel="noreferrer"
-          className="px-4 py-4 border-x border-lines hover:text-gray-300"
+          className="border-x border-lines px-4 py-4 hover:text-gray-300"
           title="Ir para o LinkedIn"
         >
           <i className="ri-linkedin-box-fill ri-xl" />
@@ -20,7 +20,7 @@ export default function Footer() {
         className="hover:text-gray-300"
         title="Ir para o Github"
       >
-        <div className="flex px-6 py-4 border-l border-lines gap-2 items-center">
+        <div className="flex items-center gap-2 border-l border-lines px-6 py-4">
           <p className="hidden phone-md:flex">@felipe0848</p>
           <i className="ri-github-fill ri-xl" />
         </div>

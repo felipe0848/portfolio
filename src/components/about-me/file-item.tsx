@@ -12,7 +12,7 @@ export default function FileItem({ item }: FileItemProps) {
   }
   return (
     <span
-      className="gap-1 flex items-baseline ml-5 hover:text-gray-300 cursor-pointer"
+      className="ml-5 flex cursor-pointer items-baseline gap-1 hover:text-gray-300"
       onClick={handleAddCode}
     >
       <i className="ri-markdown-fill" />

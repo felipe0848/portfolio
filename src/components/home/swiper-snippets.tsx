@@ -10,11 +10,11 @@ export default function SwiperSnippets() {
   const screenXl = useMediaQuery({ query: '(min-width:1280px)' })
   const direction = screenXl ? 'vertical' : 'horizontal'
   return (
-    <div className="hidden xl:h-[700px] sm:w-full sm:max-w-[700px] sm:flex ">
+    <div className="hidden sm:flex sm:w-full sm:max-w-[700px] xl:h-[700px] ">
       <Swiper
         direction={direction}
         slidesPerView={direction === 'vertical' ? 2 : 1}
-        className="w-full h-full"
+        className="h-full w-full"
         spaceBetween={18}
         autoplay={{
           delay: 10000,

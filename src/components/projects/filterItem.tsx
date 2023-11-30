@@ -17,7 +17,7 @@ export default function FilterItem({ name, icon }: FilterItemProps) {
   return (
     <span className="flex items-center gap-5">
       <Checkbox.Root
-        className="peer border-2 border-secondary-blue w-6 h-6 rounded flex justify-center items-center data-[state=checked]:bg-secondary-blue hover:outline outline-lines/90"
+        className="peer flex h-6 w-6 items-center justify-center rounded border-2 border-secondary-blue outline-lines/90 hover:outline data-[state=checked]:bg-secondary-blue"
         id={name}
         onCheckedChange={handleChangeChecked}
         checked={!!filter.find((item) => item === name)}
@@ -28,7 +28,7 @@ export default function FilterItem({ name, icon }: FilterItemProps) {
       </Checkbox.Root>
       <label
         htmlFor={name}
-        className="peer-aria-checked:text-gray-300 flex items-center gap-2 cursor-pointer text-secondary-blue"
+        className="flex cursor-pointer items-center gap-2 text-secondary-blue peer-aria-checked:text-gray-300"
       >
         {icon ? (
           <>

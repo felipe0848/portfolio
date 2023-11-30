@@ -6,9 +6,9 @@ interface FolderItemProps {
 }
 export default function FolderItem({ child }: FolderItemProps) {
   return (
-    <Collapsible.Root className="gap-1 flex flex-col items-start">
+    <Collapsible.Root className="flex flex-col items-start gap-1">
       <Collapsible.Trigger asChild>
-        <span className="first:[&>i]:data-[state=open]:rotate-90 flex items-baseline gap-1 hover:text-gray-300 cursor-pointer">
+        <span className="flex cursor-pointer items-baseline gap-1 hover:text-gray-300 first:[&>i]:data-[state=open]:rotate-90">
           <i className="ri-arrow-right-s-line" />
           <i className="ri-folder-3-fill" />
           <p>{child.innerText}</p>

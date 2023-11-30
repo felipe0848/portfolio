@@ -2,14 +2,14 @@ export default function Welcome() {
   return (
     <div className="text-primary-gray sm:min-w-[425px]">
       <p className="text-bodyText font-medium">Hi all, I am</p>
-      <h1 className="text-5xl phone-xl:text-headline leading-[4rem] ">
+      <h1 className="text-5xl leading-[4rem] phone-xl:text-headline ">
         Felipe Soares
       </h1>
-      <h2 className="text-2xl phone-xl:text-subHeadline text-secondary-purple">
+      <h2 className="text-2xl text-secondary-purple phone-xl:text-subHeadline">
         {'> '}Full-stack developer
       </h2>
 
-      <div className="flex flex-col mt-20">
+      <div className="mt-20 flex flex-col">
         <span className="text-secondary-blue">
           {'// you can also see it on my Github page'}
         </span>

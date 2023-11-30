@@ -5,7 +5,7 @@ import Welcome from '@/components/home/welcome'
 
 export default function Home() {
   return (
-    <div className="flex flex-col grow gap-20 h-full w-full justify-center items-center xl:flex-row p-8">
+    <div className="flex h-full w-full grow flex-col items-center justify-center gap-20 p-8 xl:flex-row">
       <Welcome />
 
       <SwiperSnippets />
@@ -13,7 +13,7 @@ export default function Home() {
       <Image
         src={blursImg}
         alt=""
-        className="absolute top-1/2 -translate-y-1/2 opacity-40 blur-3xl z-0 object-cover xl:left-1/3"
+        className="absolute top-1/2 z-0 -translate-y-1/2 object-cover opacity-40 blur-3xl xl:left-1/3"
         width={750}
         height={780}
       />

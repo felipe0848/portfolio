@@ -7,13 +7,13 @@ export default function NavigationTab() {
   const { filter } = useContext(ProjectsFilterContext)
   if (filter.length > 0)
     return (
-      <span className="flex relative pl-3 py-2 gap-1 pr-16 border-r border-lines w-fit">
+      <span className="relative flex w-fit gap-1 border-r border-lines py-2 pl-3 pr-16">
         {filter.includes('Todos os Projetos') ? (
           <p>Todos os Projetos;</p>
         ) : (
           filter.map((filter) => <p key={filter}>{filter};</p>)
         )}
-        <button className="absolute top-2 right-3">
+        <button className="absolute right-3 top-2">
           <i className="ri-close-fill" />
         </button>
       </span>

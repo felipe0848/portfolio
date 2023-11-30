@@ -24,7 +24,7 @@ export default function CodeWindow({ title }: CodeWindowProps) {
       </span>
       <button
         title="Fechar arquivo"
-        className="hover:text-gray-300 absolute right-3 top-2"
+        className="absolute right-3 top-2 hover:text-gray-300"
         onClick={handleCloseWindow}
       >
         <i className="ri-close-line" />
