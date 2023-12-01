@@ -14,7 +14,7 @@ interface ProjectsDetails {
 }
 export default function ProjectsDetails({ project }: ProjectsDetails) {
   return (
-    <Dialog.Content className="absolute inset-0 z-30 m-8 flex flex-col rounded-lg border border-lines bg-primary-dark-blue phone-xl:m-16">
+    <Dialog.Content className="absolute inset-0 z-30 m-8 flex max-h-[1080px] max-w-[1440px] flex-col rounded-lg border border-lines bg-primary-dark-blue phone-xl:m-16 min-[1500px]:mx-auto">
       <Dialog.Title className="border-b border-lines p-6 pb-4">
         {project.title}
       </Dialog.Title>
