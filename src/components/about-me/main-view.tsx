@@ -3,7 +3,7 @@ import { CodeViewContext } from '@/context/code-view'
 import { useContext } from 'react'
 import CodeWindow from './code-window'
 import '@/lib/highlight-custom.css'
-import SyntaxHighlighter from 'react-syntax-highlighter'
+import Markdown from 'react-markdown'
 
 export default function MainView() {
   const { codes, inFocus } = useContext(CodeViewContext)
@@ -16,24 +16,9 @@ export default function MainView() {
         ))}
       </div>
       {codes.length > 0 ? (
-        <div className="border-lines px-3 py-2 md:border-b">
-          <SyntaxHighlighter
-            language={inFocus.language}
-            useInlineStyles={false}
-            showLineNumbers
-            lineNumberStyle={{
-              color: 'var(--secondary-blue)',
-            }}
-            customStyle={{
-              background: 'transparent',
-              border: 'none',
-              padding: '1rem 0.5rem',
-              overflow: 'auto',
-            }}
-          >
-            {inFocus.content}
-          </SyntaxHighlighter>
-        </div>
+        <Markdown className="[&>h1]:mk-h1 [&>h2]:mk-h2 [&>h3]:mk-h3 [&>p]:mk-p [&>ul]:mk-ul border-lines p-3  text-gray-400 md:border-b md:px-8 md:py-6">
+          {inFocus.content}
+        </Markdown>
       ) : (
         // adicionar uma imagem de vazio
         ''
