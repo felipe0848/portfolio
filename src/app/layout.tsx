@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={`${fira.className} bg-primary-black`}>
         <ProjectsFilterProvider>
           <CodeViewProvider>
-            <main className="m-5 mx-auto flex min-h-[calc(100vh-2.5rem)] w-[calc(100vw-2.5rem)] max-w-[1400px] flex-col rounded-lg border border-lines bg-primary-blue">
+            <main className="m-5 mx-auto flex h-[calc(100vh-2.5rem)] max-h-[1080px] w-[calc(100vw-2.5rem)] max-w-[1440px] flex-col rounded-lg border border-lines bg-primary-blue">
               <Header />
               {children}
               <Footer />
