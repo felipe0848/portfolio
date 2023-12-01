@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Meu Portfolio
 
-## Getting Started
+#### 🚀 Projeto Desenvolvido com Next, Typescript e Tailwind para a estilização.
 
-First, run the development server:
+O desafio era desenvolver um portifolio para gerenciar meus projetos com o intuito de exibi-los mais facilmente, que tivesse as seguintes abas:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   [x] Listagem de todos os projetos desenvolvidos;
+-   [x] Filtros para as tecnologias utilizadas em cada projeto;
+-   [x] Conter links diretos para cada projeto ;
+-   [ ] Exibir detalhadamente cada projeto;
+-   [x] Exibir um pouco de quem eu sou;
+-   [x] Imitar a navegação de pastas de um editor de código;
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🖥️ Pré-requisitos e como rodar a aplicação/testes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 📋 Instruções
 
-## Learn More
+-   Clone esse repositório `git clone`
+-   Instale as dependências, `npm install`
+-   No terminal, digite o comando `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
+## 🤖 Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img src="https://img.shields.io/badge/TypeScript-1572B6?style=for-the-badge&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/NextJs-09090a?style=for-the-badge&logo=NextdotJs&logoColor=white">
+<img src="https://img.shields.io/badge/TailwindCss-3490dc?style=for-the-badge&logo=TailwindCss&logoColor=white">
+<img src="https://img.shields.io/badge/Vercel-09090a?style=for-the-badge&logo=vercel&logoColor=white">
+<img src="https://img.shields.io/badge/React-1572B6?style=for-the-badge&logo=React&logoColor=white">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🖼️ Demonstração da aplicação
 
-## Deploy on Vercel
+![Home](./public/hello.png)
+![About me](./public/about-me.png)
+![Projects](./public/projects.png)
+![Contact me](./public/contact-me.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🚧 Status do projeto
+
+Em construção
+
+Visualização do site:
+[Deploy na Vercel](https://portfolio-zeta-blond-20.vercel.app/)
+
+## 🧑🏻‍ Autor
+
+Feito por Felipe Soares
+
+[![Linkedin](https://img.shields.io/badge/-Felipe%20Soares-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe0848/)](https://www.linkedin.com/in/felipe0848/)
+[![Email](https://img.shields.io/badge/-felipe.11.11%40hotmail.com-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white&link=mailto:felipe.11.11@hotmail.com)](mailto:felipe.11.11@hotmail.com)
