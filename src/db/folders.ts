@@ -25,13 +25,10 @@ export const aboutInfos = {
             {
               type: 'markdown',
               innerText: 'apresentação',
-              content: `Sou um desenvolvedor web Fullstack, com conhecimento em **JavaScript**, 
-**TypeScript**, **React** e **Next.js**. 
+              content: `# Olá, me chamo **Felipe**!
+Sou um desenvolvedor web Fullstack, com conhecimento em **JavaScript**, **TypeScript**, **React** e **Next.js**. 
 
-Atualmente, estou cursando Sistemas de Informação na Universidade Federal do Mato
-Grosso do Sul, buscando aprimorar minhas habilidades e aplicá-las em projetos 
-inovadores. Estou sempre me atualizando e buscando novos cursos para estar na 
-vanguarda da tecnologia e de tendências do desenvolvimento web.
+Atualmente, estou cursando **Sistemas de Informação na Universidade Federal do Mato Grosso do Sul**, buscando aprimorar minhas habilidades e aplicá-las em projetos inovadores. Estou sempre me atualizando e buscando novos cursos para estar na vanguarda da tecnologia e de tendências do desenvolvimento web.
               `,
             },
           ],
@@ -43,11 +40,11 @@ vanguarda da tecnologia e de tendências do desenvolvimento web.
             {
               type: 'markdown',
               innerText: 'lista de interesses',
-              content: `*Uma lista de coisas que tenho interesse:*
-## Vôlei
-## Músicas antigas
-## Jogos de FPS
-## Mercado/Economia
+              content: `# Uma lista de coisas que tenho interesse:
+* Vôlei
+* Músicas antigas
+* Jogos de FPS
+* Mercado/Economia
 `,
             },
           ],
@@ -59,33 +56,39 @@ vanguarda da tecnologia e de tendências do desenvolvimento web.
             {
               type: 'markdown',
               innerText: 'Graduação',
-              content: `#Bacharelado *(Em andamento)*
-*Universidade Federal do Mato Grosso do Sul - Sistemas de Informação*
+              content: `## **Bacharelado** (Em andamento)
+
+Universidade Federal do Mato Grosso do Sul - **Sistemas de Informação**
+
 02/2023 - 12/2026`,
             },
             {
               type: 'markdown',
               innerText: 'React',
-              content: `Durante o curso de React, adquiri habilidades essenciais na construção de
+              content: `# Curso de React - **OneBitCode**
+
+Durante o curso de React, adquiri habilidades essenciais na construção de
 interfaces dinâmicas e interativas. Aprendi a criar componentes reutilizáveis,
 manipular o estado da aplicação e integrar com APIs.
 
-Alguns tópicos que tenho conhecimento:
-## Principais Hooks;
-## Context API;
-## Next.js.`,
+### Alguns tópicos que tenho conhecimento:
+- Principais Hooks;
+- Context API;
+- Next.js.`,
             },
             {
               type: 'markdown',
               innerText: 'NodeJS',
-              content: `No decorrer do curso de Node.js, adquiri habilidades para construir aplicativos
+              content: `# Curso de Node - **OneBitCode**
+              
+ No decorrer do curso de Node.js, adquiri habilidades para construir aplicativos
 do lado do servidor, compreendendo como criar APIs eficientes no padrão REST, 
 lidar com solicitações HTTP e gerenciar bancos de dados.
 
-Alguns tópicos que tenho conhecimento:
-## Express;
-## Criação de APIs;
-## Integração com Banco de Dados (SQL e NoSQL).`,
+### Alguns tópicos que tenho conhecimento:
+- Express;
+- Criação de APIs;
+- Integração com Banco de Dados (SQL e NoSQL).`,
             },
           ],
         },
@@ -105,21 +108,22 @@ Alguns tópicos que tenho conhecimento:
             {
               type: 'markdown',
               innerText: 'JBS - Seara Alimentos',
-              content: `#Cargo: 
-  Planejamento Agropecuário (05/2021 - 06/2023)
-#Principais atividades desempenhadas: 
-  *Focado em matérias-primas:* correlacionando fluxo
+              content: `# Cargo: 
+**Planejamento Agropecuário** (05/2021 - 06/2023)
+# Principais atividades desempenhadas: 
+  **Focado em matérias-primas:** correlacionando fluxo
   de descargas prioritárias e gestão do consumo MP diário;
-  *Focado em produto final:* fluxo de produção com demanda oriunda de campo;
+
+  **Focado em produto final:** fluxo de produção com demanda oriunda de campo;
   correlacionando estoque de produto acabado x frota disponível x estoque do
   produtor no campo.`,
             },
             {
               type: 'markdown',
               innerText: 'Prepara Cursos',
-              content: `#Cargo: 
-  Educador (01/2018 - 05/2021)
-#Principais atividades desempenhadas: 
+              content: `# Cargo: 
+**Educador** (01/2018 - 05/2021)
+# Principais atividades desempenhadas: 
   Atender e solucionar as dúvidas de alunos.
   Desenvolver atividades complementares para melhorar o aprendizado do aluno.`,
             },
@@ -132,34 +136,34 @@ Alguns tópicos que tenho conhecimento:
             {
               type: 'markdown',
               innerText: 'tecnologias',
-              content: `*JavaScript*
-## Promisse
-## Consumo de AP
-## POO
+              content: `**JavaScript**
+- Promisse
+- Consumo de AP
+- POO
 
-*TypeScript*
-## Tipagem
+**TypeScript**
+- Tipagem
 
-*Node JS*
-## Express
-## Fastify
-## Testes Automatizados
+**Node JS**
+- Express
+- Fastify
+- Testes Automatizados
 
-*React*
-## Hooks
-## Context API
-## Testes Automatizados
+**React**
+- Hooks
+- Context API
+- Testes Automatizados
 
-*Next JS*
-## App Router
-## Router Pages
+**Next JS**
+- App Router
+- Router Pages
 
-*Python*
-## Básico em programação
+**Python**
+- Básico em programação
 
-*C*
-## Básico em programação
-## Uso de ponteiros`,
+**C**
+- Básico em programação
+- Uso de ponteiros`,
             },
           ],
         },
