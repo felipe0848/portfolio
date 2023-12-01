@@ -5,7 +5,7 @@ import backgroundBlur from '@/assets/background-blurs.svg'
 
 export default function Contact() {
   return (
-    <div className="flex grow flex-col items-center justify-center gap-8 p-8 lg:flex-row">
+    <div className="relative flex grow flex-col items-center justify-center gap-8 p-8 lg:flex-row">
       <Image
         src={profileImg}
         alt=""
