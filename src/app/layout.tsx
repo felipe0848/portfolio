@@ -8,7 +8,7 @@ import Header from '@/components/header'
 import Footer from '@/components/footer'
 import CodeViewProvider from '@/context/code-view'
 import { ProjectsFilterProvider } from '@/context/projects-filter'
-
+import { Analytics } from '@vercel/analytics/react'
 const fira = Fira_Code({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -33,6 +33,7 @@ export default function RootLayout({
             </main>
           </CodeViewProvider>
         </ProjectsFilterProvider>
+        <Analytics />
       </body>
     </html>
   )
