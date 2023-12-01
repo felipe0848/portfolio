@@ -18,6 +18,12 @@
   .mk-ul{
     @apply list-disc ml-6
   }
+  .mk-hr{
+    @apply border-0 my-4
+  }
+  .mk-hr-no-margin{
+    @apply border-0
+  }
 }
 
 :root {
