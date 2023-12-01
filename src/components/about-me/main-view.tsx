@@ -16,7 +16,7 @@ export default function MainView() {
         ))}
       </div>
       {codes.length > 0 ? (
-        <Markdown className="[&>h1]:mk-h1 [&>h2]:mk-h2 [&>h3]:mk-h3 [&>p]:mk-p [&>ul]:mk-ul border-lines p-3  text-gray-400 md:border-b md:px-8 md:py-6">
+        <Markdown className="[&>h1]:mk-h1 [&>h2]:mk-h2 [&>h3]:mk-h3 [&>p]:mk-p [&>ul]:mk-ul flex-1 overflow-auto border-lines p-3  text-gray-400 md:border-b md:px-8 md:py-6">
           {inFocus.content}
         </Markdown>
       ) : (

@@ -6,7 +6,7 @@ export default function AboutMeLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="flex grow flex-col phone-xl:flex-row">
+    <div className="flex grow flex-col overflow-auto phone-xl:flex-row">
       <Aside />
       {children}
     </div>
