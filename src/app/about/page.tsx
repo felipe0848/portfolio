@@ -4,6 +4,7 @@ import { useContext } from 'react'
 import CodeWindow from '@/components/about-me/code-window'
 import '@/lib/highlight-custom.css'
 import Markdown from 'react-markdown'
+import EmptyView from '@/components/about-me/empty-view'
 
 export default function MainView() {
   const { codes, inFocus } = useContext(CodeViewContext)
@@ -21,7 +22,7 @@ export default function MainView() {
         </Markdown>
       ) : (
         // adicionar uma imagem de vazio
-        ''
+        <EmptyView />
       )}
     </div>
   )
