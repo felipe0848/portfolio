@@ -14,7 +14,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </header>
       <Dialog.Root>
         <Dialog.Trigger>
-          <div className="flex h-full max-h-[315px] w-full max-w-[370px] flex-col overflow-hidden rounded-lg border-2 border-lines">
+          <div className="flex h-full max-h-[305px] w-full max-w-[370px] flex-col overflow-hidden rounded-lg border-2 border-lines">
             <div className="min-h-36 w-full overflow-hidden">
               <Image alt="" src={project.imageUrl} width={386} height={145} />
             </div>

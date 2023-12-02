@@ -22,7 +22,7 @@ export default function Navbar() {
           _ola
         </Link>
         <Link
-          href="/about/me"
+          href="/about"
           className={`${
             pathname.startsWith('/about') ? activeStyle : inactiveStyle
           } flex border-l border-lines px-8 py-4`}

@@ -6,13 +6,10 @@ export type infosType = {
   content: infosType[]
 }
 export interface aboutInfosType {
-  me: infosType[]
-  pro: infosType[]
-  hobbies: infosType[]
-  contacts: infosType[]
+  data: infosType[]
 }
 export const aboutInfos = {
-  me: [
+  data: [
     {
       id: uuidv4(),
       type: 'title',
@@ -30,22 +27,6 @@ Sou um desenvolvedor web Fullstack, com conhecimento em **JavaScript**, **TypeSc
 
 Atualmente, estou cursando **Sistemas de Informação na Universidade Federal do Mato Grosso do Sul**, buscando aprimorar minhas habilidades e aplicá-las em projetos inovadores. Estou sempre me atualizando e buscando novos cursos para estar na vanguarda da tecnologia e de tendências do desenvolvimento web.
               `,
-            },
-          ],
-        },
-        {
-          type: 'folder',
-          innerText: 'interesses',
-          content: [
-            {
-              type: 'markdown',
-              innerText: 'lista de interesses',
-              content: `# Uma lista de coisas que tenho interesse:
-* Vôlei
-* Músicas antigas
-* Jogos de FPS
-* Mercado/Economia
-`,
             },
           ],
         },
@@ -94,8 +75,6 @@ lidar com solicitações HTTP e gerenciar bancos de dados.
         },
       ],
     },
-  ],
-  pro: [
     {
       id: uuidv4(),
       type: 'title',
@@ -169,9 +148,6 @@ lidar com solicitações HTTP e gerenciar bancos de dados.
         },
       ],
     },
-  ],
-
-  contacts: [
     {
       id: uuidv4(),
       type: 'title',
