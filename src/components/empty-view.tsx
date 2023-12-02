@@ -14,7 +14,7 @@ export default function EmptyView({ ImgURL, title, subtitle }: EmptyViewProps) {
         src={ImgURL || emptyFolderImg}
         alt=""
         width={200}
-        className="mix-blend-soft-light grayscale"
+        className="select-none mix-blend-soft-light grayscale"
       />
       <h1 className="-mt-6 w-full text-center text-2xl opacity-60 phone-xl:text-4xl md:-mt-2">
         {title || 'Parece vazio por aqui.'}
