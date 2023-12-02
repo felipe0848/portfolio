@@ -1,7 +1,7 @@
 'use client'
 import { CodeViewContext } from '@/context/code-view'
 import { useContext } from 'react'
-import CodeWindow from './code-window'
+import CodeWindow from '@/components/about-me/code-window'
 import '@/lib/highlight-custom.css'
 import Markdown from 'react-markdown'
 
@@ -9,7 +9,7 @@ export default function MainView() {
   const { codes, inFocus } = useContext(CodeViewContext)
 
   return (
-    <div className="flex w-full flex-col overflow-hidden border-t border-lines md:border-t-0">
+    <div className="flex w-full flex-col overflow-hidden border-t border-lines md:border-l md:border-t-0">
       <div className="flex overflow-auto whitespace-nowrap border-b border-lines bg-primary-dark-blue">
         {codes.map((code) => (
           <CodeWindow key={code.title} title={code.title} />
