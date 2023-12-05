@@ -11,7 +11,7 @@ export default function DefaultProviders({ children }: DefaultProvidersProps) {
   return (
     <ProjectsFilterProvider>
       <CodeViewProvider>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider attribute="class">{children}</ThemeProvider>
       </CodeViewProvider>
     </ProjectsFilterProvider>
   )

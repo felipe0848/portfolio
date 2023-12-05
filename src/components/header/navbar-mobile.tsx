@@ -5,7 +5,7 @@ export default function NavbarMobile() {
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild>
-        <button className="border-b border-lines px-6 py-4" title="Abrir Menu">
+        <button className="px-6 py-4" title="Abrir Menu">
           <i className="ri-menu-line ri-xl" />
         </button>
       </Dialog.Trigger>

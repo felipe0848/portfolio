@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import ThemeSwitcher from '../theme-switcher'
 
 export default function Navbar() {
   const pathname = usePathname()
@@ -39,7 +40,9 @@ export default function Navbar() {
         </Link>
       </div>
 
-      <div className="flex-1 border-b border-lines"></div>
+      <div className="flex flex-1 items-center justify-end border-b border-lines px-4">
+        <ThemeSwitcher />
+      </div>
       <Link
         href="/contact"
         className={`${
