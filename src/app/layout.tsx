@@ -23,16 +23,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${fira.className} bg-primary-black`}>
-        <DefaultProviders>
-          <main className="m-5 mx-auto flex h-[calc(100vh-2.5rem)] max-h-[1080px] w-[calc(100vw-2.5rem)] max-w-[1440px] flex-col rounded-lg border border-lines bg-primary-blue">
+      <DefaultProviders>
+        <body
+          className={`${fira.className} bg-slate-100 dark:bg-primary-black`}
+        >
+          <main className="m-5 mx-auto flex h-[calc(100vh-2.5rem)] max-h-[1080px] w-[calc(100vw-2.5rem)] max-w-[1440px] flex-col rounded-lg border border-lines bg-slate-300 text-primary-blue dark:bg-primary-blue dark:text-secondary-blue">
             <Header />
             {children}
             <Footer />
           </main>
-        </DefaultProviders>
-        <Analytics />
-      </body>
+          <Analytics />
+        </body>
+      </DefaultProviders>
     </html>
   )
 }

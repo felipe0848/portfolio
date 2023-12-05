@@ -7,9 +7,9 @@ import ThemeSwitcher from '../theme-switcher'
 export default function Navbar() {
   const pathname = usePathname()
   const activeStyle =
-    'border-b-accent-orange text-white border-b-2 cursor-default'
+    'dark:border-b-accent-orange text-primary-blue dark:text-white border-b-4 dark:border-b-2 cursor-default'
   const inactiveStyle =
-    'border-b hover:text-white hover:border-b-accent-orange hover:border-b-2'
+    'border-b dark:hover:text-white dark:hover:border-b-accent-orange dark:hover:border-b-2 hover:border-b-4 hover:text-primary-blue'
 
   return (
     <nav className="flex w-full justify-between">
@@ -18,7 +18,7 @@ export default function Navbar() {
           href="/"
           className={`${
             pathname === '/' ? activeStyle : inactiveStyle
-          } flex border-l border-lines px-8 py-4`}
+          } flex border-l border-lines  px-8 py-4`}
         >
           _ola
         </Link>
