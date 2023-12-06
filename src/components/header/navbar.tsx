@@ -2,13 +2,14 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import ThemeSwitcher from '../theme-switcher'
 
 export default function Navbar() {
   const pathname = usePathname()
   const activeStyle =
-    'border-b-accent-orange text-white border-b-2 cursor-default'
+    'dark:border-b-accent-orange text-primary-blue dark:text-white border-b-4 dark:border-b-2 cursor-default'
   const inactiveStyle =
-    'border-b hover:text-white hover:border-b-accent-orange hover:border-b-2'
+    'border-b dark:hover:text-white dark:hover:border-b-accent-orange dark:hover:border-b-2 hover:border-b-4 hover:font-semibold dark:hover:font-normal'
 
   return (
     <nav className="flex w-full justify-between">
@@ -17,7 +18,7 @@ export default function Navbar() {
           href="/"
           className={`${
             pathname === '/' ? activeStyle : inactiveStyle
-          } flex border-l border-lines px-8 py-4`}
+          } flex border-l border-lines  px-8 py-4`}
         >
           _ola
         </Link>
@@ -39,7 +40,9 @@ export default function Navbar() {
         </Link>
       </div>
 
-      <div className="flex-1 border-b border-lines"></div>
+      <div className="flex flex-1 items-center justify-end border-b border-lines px-4">
+        <ThemeSwitcher />
+      </div>
       <Link
         href="/contact"
         className={`${

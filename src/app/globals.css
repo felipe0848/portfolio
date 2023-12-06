@@ -53,9 +53,7 @@
   box-sizing: border-box;
 }
 
-body{
-  color: var(--secondary-blue)
-}
+
 @media(max-width: 768px){
   html{
     font-size: 77%;
@@ -89,16 +87,29 @@ body{
 
 /* Track scrollbar */
 ::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+
+.dark ::-webkit-scrollbar-track {
   background: var(--primary-blue);
   }
 
 /* Handle scrollbar */
 ::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 5px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
   background: var(--lines);
   border-radius: 5px;
 }
 
 /* Handle on hover scrollbar */
 ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }

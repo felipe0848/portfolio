@@ -7,7 +7,7 @@ export default function Footer() {
           href="https://www.linkedin.com/in/felipe0848/"
           target="_blank"
           rel="noreferrer"
-          className="border-x border-lines px-4 py-4 hover:text-gray-300"
+          className="border-x border-lines px-4 py-4 hover:font-semibold dark:hover:font-normal dark:hover:text-gray-300"
           title="Ir para o LinkedIn"
         >
           <i className="ri-linkedin-box-fill ri-xl" />
@@ -17,7 +17,7 @@ export default function Footer() {
         href="https://github.com/felipe0848"
         target="_blank"
         rel="noreferrer"
-        className="hover:text-gray-300"
+        className="hover:font-semibold dark:hover:font-normal dark:hover:text-gray-300"
         title="Ir para o Github"
       >
         <div className="flex items-center gap-2 border-l border-lines px-6 py-4">
