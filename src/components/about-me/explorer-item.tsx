@@ -9,7 +9,7 @@ export default function ExplorerItem({ item }: ExplorerItemProps) {
   return (
     <Accordion.Item value={item.innerText}>
       <Accordion.Trigger asChild>
-        <span className="flex cursor-pointer gap-1 border-b border-lines px-3 py-4 text-gray-300 hover:text-white [&>i]:data-[state=open]:rotate-90">
+        <span className="flex cursor-pointer gap-1 border-b border-lines px-3 py-4 hover:font-semibold dark:text-gray-300 dark:hover:text-white [&>i]:data-[state=open]:rotate-90">
           <i className="ri-arrow-right-s-fill" />
           <h3>{item.innerText}</h3>
         </span>
@@ -22,7 +22,7 @@ export default function ExplorerItem({ item }: ExplorerItemProps) {
               <FolderItem key={child.innerText} child={child} />
             ) : (
               <a
-                className="flex cursor-pointer items-baseline gap-1 hover:text-gray-300"
+                className="flex cursor-pointer items-baseline gap-1 hover:font-semibold dark:hover:text-gray-300"
                 key={child.innerText}
                 href={`${
                   child.type === 'mail' ? 'mailto:' + child.innerText : '#'
