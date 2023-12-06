@@ -10,13 +10,13 @@ export default function NavbarMobile() {
         </button>
       </Dialog.Trigger>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 z-20 bg-primary-black" />
-        <Dialog.Content className="fixed inset-5 z-30 flex flex-col rounded-lg border border-lines bg-primary-blue">
+        <Dialog.Overlay className="fixed inset-0 z-20 bg-slate-100 dark:bg-primary-black" />
+        <Dialog.Content className="fixed inset-5 z-30 flex flex-col rounded-lg border border-lines bg-slate-300 dark:bg-primary-blue">
           <Dialog.Title className="w-full border-b border-lines p-4">
             <p>felipe-soares</p>
           </Dialog.Title>
           <Dialog.Description className="flex h-full flex-col justify-between">
-            <nav className="flex flex-col text-white">
+            <nav className="flex flex-col dark:text-gray-300">
               <Dialog.Close asChild>
                 <Link href="/" className={'border-b border-lines p-4'}>
                   _ola
