@@ -14,7 +14,7 @@ export default function Contact() {
         className="z-10"
       />
       <div className="z-10">
-        <h1 className="text-5xl leading-[4rem] text-gray-300 phone-xl:text-headline">
+        <h1 className="text-5xl leading-[4rem] dark:text-gray-300 phone-xl:text-headline">
           Felipe Soares
         </h1>
         <h2 className="text-2xl text-secondary-purple phone-xl:text-subHeadline">
@@ -29,7 +29,7 @@ export default function Contact() {
             href="mailto:felipe.11.11@hotmail.com"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 hover:text-gray-300 [&>p]:hover:underline"
+            className="flex items-center gap-2 hover:font-semibold dark:hover:text-gray-300 [&>p]:hover:underline"
           >
             <i className="ri-mail-fill ri-lg" />
             <p>felipe.11.11@hotmail.com</p>
@@ -38,7 +38,7 @@ export default function Contact() {
             href="https://github.com/felipe0848"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 hover:text-gray-300 [&>p]:hover:underline"
+            className="flex items-center gap-2 hover:font-semibold dark:hover:text-gray-300 [&>p]:hover:underline"
           >
             <i className="ri-github-fill ri-xl" />
             <p className="hidden phone-md:flex">
@@ -50,7 +50,7 @@ export default function Contact() {
             href="https://linkedin.com/in/felipe0848/"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 hover:text-gray-300 [&>p]:hover:underline"
+            className="flex items-center gap-2 hover:font-semibold dark:hover:text-gray-300 [&>p]:hover:underline"
           >
             <i className="ri-linkedin-box-fill ri-xl" />
             <p className="hidden phone-md:flex">
@@ -62,7 +62,7 @@ export default function Contact() {
             href="https://workana.com/freelancer/27f1abdec244a0de41f850265d36d6d8"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 break-words hover:text-gray-300 [&>p]:hover:underline"
+            className="flex items-center gap-2 break-words hover:font-semibold dark:hover:text-gray-300 [&>p]:hover:underline"
           >
             <Image src={workanaLogo} width={24} height={24} alt="" />
             <p className="hidden phone-md:flex">
