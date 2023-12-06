@@ -28,7 +28,7 @@ export default function FilterItem({ name, icon }: FilterItemProps) {
       </Checkbox.Root>
       <label
         htmlFor={name}
-        className="flex cursor-pointer items-center gap-2 text-secondary-blue/80 peer-aria-checked:text-primary-blue dark:peer-aria-checked:text-gray-300"
+        className="flex cursor-pointer items-center gap-2 text-secondary-blue/80 hover:font-semibold peer-aria-checked:text-primary-blue dark:peer-aria-checked:text-gray-300"
       >
         {icon ? (
           <>

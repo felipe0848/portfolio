@@ -11,7 +11,7 @@ export default function MainView() {
 
   return (
     <div className="flex w-full flex-col overflow-hidden  border-lines md:border-l md:border-t-0">
-      <div className="flex overflow-auto whitespace-nowrap border-b border-lines bg-slate-400 dark:bg-primary-dark-blue">
+      <div className="flex overflow-auto whitespace-nowrap border-b border-lines bg-slate-200 dark:bg-primary-dark-blue">
         {codes.map((code) => (
           <CodeWindow key={code.title} title={code.title} />
         ))}

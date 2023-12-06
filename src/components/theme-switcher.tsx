@@ -21,6 +21,7 @@ export default function ThemeSwitcher() {
         <button
           onClick={() => setTheme('dark')}
           title="Alterar tema para escuro"
+          className="hover:font-semibold"
         >
           <i className="ri-moon-line ri-xl" />
         </button>
@@ -28,6 +29,7 @@ export default function ThemeSwitcher() {
         <button
           onClick={() => setTheme('light')}
           title="Alterar tema para claro"
+          className="hover:text-gray-300"
         >
           <i className="ri-sun-line ri-xl" />
         </button>

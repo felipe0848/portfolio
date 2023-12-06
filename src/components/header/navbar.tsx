@@ -9,7 +9,7 @@ export default function Navbar() {
   const activeStyle =
     'dark:border-b-accent-orange text-primary-blue dark:text-white border-b-4 dark:border-b-2 cursor-default'
   const inactiveStyle =
-    'border-b dark:hover:text-white dark:hover:border-b-accent-orange dark:hover:border-b-2 hover:border-b-4 hover:text-primary-blue'
+    'border-b dark:hover:text-white dark:hover:border-b-accent-orange dark:hover:border-b-2 hover:border-b-4 hover:font-semibold dark:hover:font-normal'
 
   return (
     <nav className="flex w-full justify-between">

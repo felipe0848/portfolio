@@ -38,7 +38,7 @@ export default function ProjectsDetails({ project }: ProjectsDetails) {
         <a
           href={project.githubUrl}
           target="_blank"
-          className="flex items-center gap-2 rounded-md border-2 border-transparent bg-slate-500 p-3 text-gray-300 hover:border-secondary-purple hover:brightness-110 dark:bg-secondary-gray"
+          className="flex items-center gap-2 rounded-md border-2 border-transparent bg-slate-500/80 p-3 text-gray-300 hover:border-secondary-purple hover:brightness-110 dark:bg-secondary-gray"
           rel="noreferrer"
         >
           <i className="ri-terminal-box-fill ri-lg dark:text-secondary-blue" />
@@ -47,7 +47,7 @@ export default function ProjectsDetails({ project }: ProjectsDetails) {
         <a
           href={project.deployUrl}
           target="_blank"
-          className="flex items-center gap-2 rounded-md border-2 border-transparent bg-slate-500 p-3 text-gray-300 hover:border-secondary-purple hover:brightness-110 dark:bg-secondary-gray"
+          className="flex items-center gap-2 rounded-md border-2 border-transparent bg-slate-500/80 p-3 text-gray-300 hover:border-secondary-purple hover:brightness-110 dark:bg-secondary-gray"
           rel="noreferrer"
         >
           <i className="ri-computer-fill ri-lg dark:text-secondary-blue" />
