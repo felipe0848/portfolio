@@ -10,14 +10,14 @@ interface FilterItemProps {
 }
 export default function FilterItem({ name, icon }: FilterItemProps) {
   const { filter, changeFilter } = useContext(ProjectsFilterContext)
-  // console.log(filter)
+
   function handleChangeChecked(check: boolean) {
     changeFilter(name, check)
   }
   return (
     <span className="flex items-center gap-5">
       <Checkbox.Root
-        className="peer flex h-6 w-6 items-center justify-center rounded border-2 border-secondary-blue outline-lines/90 hover:outline data-[state=checked]:bg-secondary-blue"
+        className="peer flex h-6 w-6 items-center justify-center rounded border-2 border-secondary-blue outline-slate-400/40 hover:outline data-[state=checked]:bg-indigo-400 dark:outline-lines/90 dark:data-[state=checked]:bg-secondary-blue"
         id={name}
         onCheckedChange={handleChangeChecked}
         checked={!!filter.find((item) => item === name)}
@@ -28,7 +28,7 @@ export default function FilterItem({ name, icon }: FilterItemProps) {
       </Checkbox.Root>
       <label
         htmlFor={name}
-        className="flex cursor-pointer items-center gap-2 text-secondary-blue peer-aria-checked:text-gray-300"
+        className="flex cursor-pointer items-center gap-2 text-secondary-blue/80 peer-aria-checked:text-primary-blue dark:peer-aria-checked:text-gray-300"
       >
         {icon ? (
           <>

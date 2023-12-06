@@ -11,7 +11,7 @@ export default function Aside() {
     <aside className="min-w-[300px] border-r border-lines">
       <Collapsible.Root defaultOpen={!tablet}>
         <Collapsible.Trigger asChild>
-          <span className="flex cursor-pointer items-center gap-2 border-b border-lines px-4 py-2 text-gray-300 [&>i]:data-[state=open]:rotate-90">
+          <span className="flex cursor-pointer items-center gap-2 border-b border-lines px-4 py-2 dark:text-gray-300 [&>i]:data-[state=open]:rotate-90">
             <i className="ri-arrow-right-s-fill ri-xl" />
             <p>projects</p>
           </span>
