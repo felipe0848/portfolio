@@ -10,7 +10,7 @@ O desafio era desenvolver um portifolio para gerenciar meus projetos com o intui
 -   [x] Exibir detalhadamente cada projeto;
 -   [x] Exibir um pouco de quem eu sou;
 -   [x] Imitar a navegação de pastas de um editor de código;
--   [ ] Adicionar alternador de tema (light mode e dark mode);
+-   [x] Adicionar alternador de tema (light mode e dark mode);
 -   [ ] Adicionnar alternador de idioma (pt-br e en-us);
 
 ## 🖥️ Pré-requisitos e como rodar a aplicação/testes
