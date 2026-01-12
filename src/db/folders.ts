@@ -33,7 +33,7 @@ Atualmente, curso Sistemas de Informação na **Universidade Federal do Mato Gro
         },
         {
           type: 'folder',
-          innerText: 'Experiencia',
+          innerText: 'Experiência',
           content: [
             {
               type: 'markdown',
