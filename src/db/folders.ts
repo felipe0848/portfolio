@@ -22,11 +22,12 @@ export const aboutInfos = {
             {
               type: 'markdown',
               innerText: 'apresentação',
-              content: `# Olá, me chamo **Felipe**!
-Sou um desenvolvedor web Fullstack, com conhecimento em **JavaScript**, **TypeScript**, **React** e **Next.js**. 
+              content: `# Olá, me chamo Felipe!
+Atuo como desenvolvedor de software desde **2023**, com experiência no desenvolvimento e manutenção de aplicações web e mobile de médio e grande porte, utilizando **TypeScript**, **JavaScript**, **Node.js**, **NestJS**, **React** e **React Native**, além de bancos de dados **SQL** e **NoSQL**.
 
-Atualmente, estou cursando **Sistemas de Informação na Universidade Federal do Mato Grosso do Sul**, buscando aprimorar minhas habilidades e aplicá-las em projetos inovadores. Estou sempre me atualizando e buscando novos cursos para estar na vanguarda da tecnologia e de tendências do desenvolvimento web.
-              `,
+Iniciei minha trajetória na tecnologia aos **16 anos**, em meu primeiro trabalho em uma escola de cursos, onde tive contato com HTML, CSS e JavaScript e mergulhei no universo da programação. Desde então, venho aprofundando meus conhecimentos de forma contínua, tanto na prática profissional quanto na formação acadêmica.
+
+Atualmente, curso Sistemas de Informação na **Universidade Federal do Mato Grosso do Sul (UFMS)**, onde complemento minha experiência prática com fundamentos teóricos de desenvolvimento de software. Acredito que a busca constante por aprendizado é essencial para evoluir como profissional e para gerar impacto positivo na vida das pessoas por meio da tecnologia.`,
             },
           ],
         },
