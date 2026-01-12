@@ -13,11 +13,11 @@ export const aboutInfos = {
     {
       id: uuidv4(),
       type: 'title',
-      innerText: 'infomações pessoais',
+      innerText: 'Infomações pessoais',
       content: [
         {
           type: 'folder',
-          innerText: 'bio',
+          innerText: 'Bio',
           content: [
             {
               type: 'markdown',
@@ -32,7 +32,7 @@ Atualmente, estou cursando **Sistemas de Informação na Universidade Federal do
         },
         {
           type: 'folder',
-          innerText: 'formação',
+          innerText: 'Formação',
           content: [
             {
               type: 'markdown',
@@ -78,12 +78,38 @@ lidar com solicitações HTTP e gerenciar bancos de dados.
     {
       id: uuidv4(),
       type: 'title',
-      innerText: 'informações profissionais',
+      innerText: 'Informações profissionais',
       content: [
         {
           type: 'folder',
-          innerText: 'experiencia',
+          innerText: 'Experiencia',
           content: [
+            {
+              type: 'markdown',
+              innerText: 'Razzo Tech',
+              content: `# Cargo: 
+**Desenvolvedor Full Stack** (03/2024 - presente)
+- Otimizei o funcionamento da aplicação em Node.js e reprojetei a estratégia de execução em produção, reduzindo o custo de infraestrutura em **aproximadamente 40%**, ao eliminar o uso ineficiente de máquinas virtuais com múltiplos cores e apenas uma instância ativa por máquina.
+
+- Implementei estratégias de cache para consultas crı́ticas, otimizando a execução recorrente de uma query e reduzindo o tempo total acumulado de processamento de aproximadamente **25 horas** para **1 hora e 48 minutos**, com impacto direto na performance do banco de dados.
+
+- Liderei o fork e a reestruturação de uma aplicação financeira para um modelo whitelabel, que atualmente atende mais de **70 clientes**, garantindo escalabilidade, isolamento de configurações e confiabilidade por meio de automações, CI/CD e testes automatizados.
+
+- Implementei a integração de novos produtos financeiros, transformando a aplicação de uma solução de produto único para uma plataforma multiproduto, o que resultou em um aumento aproximado de **45% no
+faturamento**.
+
+- **Tech Stack**: TypeScript, JavaScript, Node.js, NestJS, React, React Native, MongoDB, Redis, Prisma, Vite,
+Next.js, TailwindCSS, Styled-Components, Jest, Vitest, Playwright, Git, GitHub, GitHub Actions
+
+
+**Desenvolvedor Full Stack** (12/2023 - 03/2024)
+- Participei da migração de uma plataforma marketplace, migrando de **Angular** para **React**, o que possibilitou a expansão do negócio para novos estados e facilitou o controle de NFs, além do gerenciamento de fornecedores e clientes, utilizando Styled-Components, RadixUI e Shadcn.
+
+- Atuei como principal desenvolvedor no lançamento de um aplicativo mobile de cunho financeiro, focado em empréstimos pessoais, disponibilizado para mais de **30 mil** usuários, utilizando React Native, Expo e TypeScript.
+
+- **Tech Stack**: React, React Native, Expo, TypeScript, JavaScript, Vite, TailwindCSS, Styled-Components, Radix UI, Shadcn, Git, GitHub
+`,
+            },
             {
               type: 'markdown',
               innerText: 'JBS - Seara Alimentos',
@@ -110,7 +136,7 @@ lidar com solicitações HTTP e gerenciar bancos de dados.
         },
         {
           type: 'folder',
-          innerText: 'habilidades',
+          innerText: 'Habilidades',
           content: [
             {
               type: 'markdown',
@@ -151,7 +177,7 @@ lidar com solicitações HTTP e gerenciar bancos de dados.
     {
       id: uuidv4(),
       type: 'title',
-      innerText: 'contato',
+      innerText: 'Contato',
       content: [
         {
           type: 'mail',
