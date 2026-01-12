@@ -21,7 +21,7 @@ export const aboutInfos = {
           content: [
             {
               type: 'markdown',
-              innerText: 'apresentação',
+              innerText: 'Apresentação',
               content: `# Olá, me chamo Felipe!
 Atuo como desenvolvedor de software desde **2023**, com experiência no desenvolvimento e manutenção de aplicações web e mobile de médio e grande porte, utilizando **TypeScript**, **JavaScript**, **Node.js**, **NestJS**, **React** e **React Native**, além de bancos de dados **SQL** e **NoSQL**.
 
@@ -31,56 +31,6 @@ Atualmente, curso Sistemas de Informação na **Universidade Federal do Mato Gro
             },
           ],
         },
-        {
-          type: 'folder',
-          innerText: 'Formação',
-          content: [
-            {
-              type: 'markdown',
-              innerText: 'Graduação',
-              content: `## **Bacharelado** (Em andamento)
-
-Universidade Federal do Mato Grosso do Sul - **Sistemas de Informação**
-
-02/2023 - 12/2026`,
-            },
-            {
-              type: 'markdown',
-              innerText: 'React',
-              content: `# Curso de React - **OneBitCode**
-
-Durante o curso de React, adquiri habilidades essenciais na construção de
-interfaces dinâmicas e interativas. Aprendi a criar componentes reutilizáveis,
-manipular o estado da aplicação e integrar com APIs.
-
-### Alguns tópicos que tenho conhecimento:
-- Principais Hooks;
-- Context API;
-- Next.js.`,
-            },
-            {
-              type: 'markdown',
-              innerText: 'NodeJS',
-              content: `# Curso de Node - **OneBitCode**
-              
- No decorrer do curso de Node.js, adquiri habilidades para construir aplicativos
-do lado do servidor, compreendendo como criar APIs eficientes no padrão REST, 
-lidar com solicitações HTTP e gerenciar bancos de dados.
-
-### Alguns tópicos que tenho conhecimento:
-- Express;
-- Criação de APIs;
-- Integração com Banco de Dados (SQL e NoSQL).`,
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: uuidv4(),
-      type: 'title',
-      innerText: 'Informações profissionais',
-      content: [
         {
           type: 'folder',
           innerText: 'Experiencia',
@@ -137,11 +87,54 @@ Next.js, TailwindCSS, Styled-Components, Jest, Vitest, Playwright, Git, GitHub, 
         },
         {
           type: 'folder',
+          innerText: 'Formação',
+          content: [
+            {
+              type: 'markdown',
+              innerText: 'Graduação',
+              content: `## **Bacharelado** (Em andamento)
+
+Universidade Federal do Mato Grosso do Sul - **Sistemas de Informação**
+
+02/2023 - 12/2026`,
+            },
+            {
+              type: 'markdown',
+              innerText: 'React',
+              content: `# Curso de React - **OneBitCode**
+
+Durante o curso de React, adquiri habilidades essenciais na construção de
+interfaces dinâmicas e interativas. Aprendi a criar componentes reutilizáveis,
+manipular o estado da aplicação e integrar com APIs.
+
+### Alguns tópicos que tenho conhecimento:
+- Principais Hooks;
+- Context API;
+- Next.js.`,
+            },
+            {
+              type: 'markdown',
+              innerText: 'NodeJS',
+              content: `# Curso de Node - **OneBitCode**
+              
+ No decorrer do curso de Node.js, adquiri habilidades para construir aplicativos
+do lado do servidor, compreendendo como criar APIs eficientes no padrão REST, 
+lidar com solicitações HTTP e gerenciar bancos de dados.
+
+### Alguns tópicos que tenho conhecimento:
+- Express;
+- Criação de APIs;
+- Integração com Banco de Dados (SQL e NoSQL).`,
+            },
+          ],
+        },
+        {
+          type: 'folder',
           innerText: 'Habilidades',
           content: [
             {
               type: 'markdown',
-              innerText: 'tecnologias',
+              innerText: 'Tecnologias',
               content: `**JavaScript**
 - Promisse
 - Consumo de AP
@@ -175,6 +168,12 @@ Next.js, TailwindCSS, Styled-Components, Jest, Vitest, Playwright, Git, GitHub, 
         },
       ],
     },
+    // {
+    //   id: uuidv4(),
+    //   type: 'title',
+    //   innerText: 'Informações profissionais',
+    //   content: [],
+    // },
     {
       id: uuidv4(),
       type: 'title',
